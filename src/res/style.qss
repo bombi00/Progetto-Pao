@@ -1,0 +1,117 @@
+*{
+    font-size:14px;
+    background-color: #3843a8;
+    color: white;
+}
+
+QPushButton {
+    background-color: #202b91;
+    font-size: 14px;
+    padding: 8px 16px;
+    color: white;
+}
+
+QPushButton#fOk {
+    qproperty-icon: url(:/resources/res/film.png);
+}
+
+
+QPushButton#mOk {
+    qproperty-icon: url(:/resources/res/music.png);
+}
+
+QPushButton#lOk {
+    qproperty-icon: url(:/resources/res/book.png);
+}
+
+QPushButton#pOk {
+    qproperty-icon: url(:/resources/res/prize.png);
+}
+
+QLabel#name {
+    font-size:16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #a8a7a7;
+}
+
+QLineEdit {
+    padding: 8px 16px;
+    border: 1px solid black;
+}
+
+QComboBox {
+    padding: 8px 16px;
+}
+
+QSpinBox {
+    padding: 8px 16px;
+    border: 1px solid black;
+}
+
+QDoubleSpinBox {
+    padding: 8px 16px;
+    border: 1px solid black;
+}
+
+QDoubleSpinBox::up-button {
+    image: url(:/resources/res/up-arrow.png);
+}
+
+QDoubleSpinBox::down-button {
+    image: url(:/resources/res/down-arrow.png);
+}
+
+QSpinBox::up-button {
+    image: url(:/resources/res/up-arrow.png);
+}
+
+QSpinBox::down-button {
+    image: url(:/resources/res/down-arrow.png);
+}
+
+QSpinBox::up-button:hover {
+    background-color: #DEDCDC;
+}
+
+QSpinBox::down-button:hover {
+    background-color: #DEDCDC;
+}
+
+QHeaderView::section {
+    font-weight: bold;
+    background-color: #202b91;
+}
+
+QTableView::item
+{
+    border-style: none;
+    border-bottom: 1px solid black;
+}
+
+QGroupBox{
+    font-size:24px;
+}
+
+QGroupBox QLabel {
+    padding-top: 5px;
+}
+
+QTabWidget::pane {
+    border: 1px solid black;
+}
+
+QTabBar::tab:selected {
+    background-color: #131c6b;
+}
+
+QTabBar::tab {
+    background-color: #202b91;
+}
+
+QMenu:hover {
+    background-color: #202b91;
+}
+
